@@ -9,3 +9,45 @@ body {
 h1, nav {
     font-family: 'Lato', sans-serif;
 }
+
+.navbar {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 30px 30px;
+    position:relative;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-brand {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar ul {
+    list-style: none;
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+.navbar ul li a {
+    display: inline-block;
+    padding: 10px 20px; /*around nav bar*/
+    color: white; /* text color */
+    text-decoration: none; /* text no underline */
+    font-size: 16px;
+}
+
+.navbar ul li a:hover {
+    background-color: #000000
+}
