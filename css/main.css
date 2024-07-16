@@ -1,3 +1,6 @@
+
+
+
 body {
     font-family: 'Karla', sans-serif;
     background-color: #f3f0e9;
@@ -10,11 +13,19 @@ h1, nav {
     font-family: 'Lato', sans-serif;
 }
 
+.skip-link{
+
+} 
+
+
+
+
+
+
 .navbar {
     background-color: #000000;
-    color: #ffffff;
-    padding: 30px 30px;
-    position:relative;
+    padding: 5px 80px;
+    position: relative;
 }
 
 .container {
@@ -32,22 +43,22 @@ h1, nav {
     font-weight: bold;
 }
 
-.navbar ul {
+.navigation ul {
     list-style: none;
 }
 
-.navbar ul li {
+.navigation ul li {
     display: inline;
 }
 
-.navbar ul li a {
+.navigation ul li a {
     display: inline-block;
-    padding: 10px 20px; /*around nav bar*/
+    padding: 10px 20px; /* around nav bar*/
     color: white; /* text color */
     text-decoration: none; /* text no underline */
     font-size: 16px;
 }
 
-.navbar ul li a:hover {
-    background-color: #000000
+.navigation ul li a:hover {
+    background-color: #000000;
 }
