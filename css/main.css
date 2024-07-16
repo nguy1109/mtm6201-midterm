@@ -32,7 +32,6 @@ header {
 }
 
 .container {
-    max-width: 1200px;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -64,6 +63,14 @@ header {
 .navigation ul li a:hover {
     background-color: #000000;
 }
+
+main {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0rem;
+}
+
+
 
 #hero {
     background-image: url(../images/hero-background.jpg);
