@@ -117,6 +117,19 @@ button:hover {
 
 
 
+
+
+
+
+
+
+
+
+#coffee-shop {
+    background-image: url(../images/coffee-shop.jpeg);
+}
+
+
 /* typescales for table and desktop */
 
 @media (min-width: 768px) {
