@@ -21,10 +21,6 @@ h1, nav {
 } 
 
 
-
-
-
-
 header {
     background-color: #000000;
     padding: 5px 80px;
@@ -129,6 +125,32 @@ button:hover {
     background-image: url(../images/coffee-shop.jpeg);
 }
 
+#coffee-shop {
+    color: #ffffff; 
+    height: 100vh;
+    display: flex; /*centering content */
+    align-items: center; /* vertical centering */
+    justify-content: center; /* horizontal centering */
+}
+
+.coffee-shop {
+    max-width: 600px;
+}
+
+
+button {
+    font-size: 1rem;
+    padding: 10px 50px;
+    border: none;
+    background-color: #ffffff;
+    color: #000000;
+    cursor: default;
+    transition: background-color 0.3s,  transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #966f2c;
+}
 
 /* typescales for table and desktop */
 
