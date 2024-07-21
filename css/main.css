@@ -142,6 +142,25 @@ button:hover {
 
 
 
+.about-us {
+    background-color: #ffffff;
+}
+
+.container-about-us {
+    padding: 10%;
+    color: #000000;
+    display: flex;
+}
+
+.card-body {
+    padding: 3rem;
+    display: flex;
+    flex-direction:column;
+}
+
+
+
+
 
 
 .container-testimonials {
