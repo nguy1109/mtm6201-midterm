@@ -61,7 +61,7 @@ header {
 }
 
 main {
-    max-width: 1200px;
+    /* max-width: 1200px; */
     margin: auto;
     padding: 0rem;
 }
@@ -135,21 +135,6 @@ button:hover {
 
 .coffee-shop {
     max-width: 600px;
-}
-
-
-button {
-    font-size: 1rem;
-    padding: 10px 50px;
-    border: none;
-    background-color: #ffffff;
-    color: #000000;
-    cursor: default;
-    transition: background-color 0.3s,  transform 0.2s ease;
-}
-
-button:hover {
-    background-color: #966f2c;
 }
 
 
