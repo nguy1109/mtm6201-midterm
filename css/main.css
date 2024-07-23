@@ -130,20 +130,20 @@ button:hover {
 #coffee-shop {
     color: #ffffff; 
     height: 100vh;
-    display: flex; /*centering content */
+    display: flex;
     align-items: center; /* vertical centering */
     justify-content: center; /* horizontal centering */
 }
 
-.coffee-shop {
-    max-width: 600px;
+.container-coffee-shop {
+    display: flex;
 }
 
 
 
 
 
-
+/* about us */
 .about-us {
     background-color: #ffffff;
 }
