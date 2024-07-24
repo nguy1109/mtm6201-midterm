@@ -158,26 +158,55 @@ button:hover {
     display: flex;
 }
 
-
-
-
-
-
-.testimonials-1 {
-    background-image: url(../images/testimonial-1.jpeg);
+.card-body {
+    padding: 40px;
 }
 
-.testimonials-2 {
-    background-image: url(../images/testimonial-2.jpeg);
+/* testimonials */
+
+
+
+.container-testimonials {
+    background-color: #000000;
+    color: #ffffff;
+    margin: 0 auto;
+    padding: 20px;
 }
 
-.testimonials-3 {
-    background-image: url(../images/testimonial-3.jpeg);
+.content {
+    text-align: center;
 }
 
+.testimonials-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
 
+.testimonials-card {
+    padding: 20px;
+}
 
+.testimonial-image {
+    height: auto;
+    background-size: cover;
+    background-position: center;
+}
 
+.testimonial-content {
+    padding: 20%;
+}
+
+.card-text {
+    font-size: 30px;
+    line-height: 1.6;
+}
+
+.card-title {
+    font-size: 30px;
+    color: #966f2c;
+    text-transform: uppercase;
+}
 
 
 .container-testimonials {
