@@ -4,7 +4,14 @@ body {
     margin: 0;
     padding: 0;
     color: #000000;
+    font-size: 16px;
+    line-height: 1.5;
 }
+
+h1, h2, h3, p {
+    margin: 0;
+}
+
 
 h1, nav {
     font-family: 'Lato', sans-serif;
@@ -32,7 +39,7 @@ h2 {
 
 header {
     background-color: #000000;
-    padding: 5px 80px;
+    padding: 1rem 2rem;
     position: relative;
 }
 
@@ -41,6 +48,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    max-width: 1200px;
+    padding: 0 1rem;
 }
 
 .navbar-brand {
@@ -60,7 +69,7 @@ header {
     padding: 10px 20px; /* around nav bar*/
     color: white; /* text color */
     text-decoration: none; /* text no underline */
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: bold;
     transition: color 0.3s ease;
 }
@@ -69,20 +78,12 @@ header {
     background-color: #000000;
 }
 
-main {
-    /* max-width: 1200px; */
-    margin: auto;
-    padding: 0rem;
-}
 
 /* hero */
 
 #hero {
     background-image: url(../images/hero-background.jpg);
     background-repeat: no-repeat;
-}
-
-#hero {
     color: #ffffff; 
     height: 100vh;
     display: flex; /*centering content */
@@ -100,7 +101,7 @@ main {
 
 button {
     font-size: 1rem;
-    padding: 10px 50px;
+    padding: 0.5rem 2rem;
     border: none;
     background-color: #ffffff;
     color: #000000;
@@ -159,7 +160,7 @@ button:hover {
 }
 
 .card-body {
-    padding: 40px;
+    padding: 2rem;
 }
 
 /* testimonials */
@@ -170,7 +171,7 @@ button:hover {
     background-color: #000000;
     color: #ffffff;
     margin: 0 auto;
-    padding: 20px;
+    padding: 1rem;
 }
 
 .content {
@@ -179,31 +180,26 @@ button:hover {
 
 .testimonials-cards {
     display: flex;
+    flex-wrap:wrap;
     justify-content: space-between;
-    margin-top: 20px;
+    margin-top: 1rem;
 }
 
 .testimonials-card {
-    padding: 20px;
-}
-
-.testimonial-image {
-    height: auto;
-    background-size: cover;
-    background-position: center;
+    padding: 1rem;
 }
 
 .testimonial-content {
-    padding: 20%;
+    padding: 10%;
 }
 
 .card-text {
-    font-size: 30px;
+    font-size: 1.5rem;
     line-height: 1.6;
 }
 
 .card-title {
-    font-size: 30px;
+    font-size: 1.5rem;
     color: #966f2c;
     text-transform: uppercase;
 }
@@ -226,18 +222,37 @@ button:hover {
     padding: 1rem 0 ;
 }
 
+/* Mobile styles */
+@media (max-width: 767px) {
+    h1 {
+        font-size: 2.027rem;
+        line-height: 1.2;
+        font-weight: bold;
+    }
+    h2 {
+        font-size: 1.802rem;
+        line-height: 1.2;
+    }
+    h3 {
+        font-size: 1.424rem;
+        line-height: 1.3;
+    }
+    p {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+}
+/* typescales for table */
 
-/* typescales for table and desktop */
-
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 1023px) {
     h1 {font-size: 2.986rem;}
     h2 {font-size: 2.488rem;}
     h3 {font-size: 1.728rem;}
     p {font-size: 1rem;}
 }
+/* typescales for desktop */
 
-
-@media (min-width: 1100px) {
+@media (min-width: 1024px) {
     h1 {font-size: 3.815rem;}
     h2 {font-size: 3.052rem;}
     h3 {font-size: 1.953rem;}
