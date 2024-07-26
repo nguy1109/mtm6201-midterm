@@ -105,13 +105,14 @@ button {
     border: none;
     background-color: #ffffff;
     color: #000000;
-    cursor: default;
+    cursor: pointer;
     transition: background-color 0.3s,  transform 0.2s ease;
     text-transform: uppercase;
 }
 
 button:hover {
     background-color: #966f2c;
+    transform: scale(1.05);
 }
 
 /* welcome */
